@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+}
+header{
+    background-color: hotpink;
+
+}
+aside{
+    background-color: rgb(100, 18, 177);
+    
+}   
+main{
+    background-color: blueviolet;
+}
+footer{
+    background-color: blue;
+}
+header{
+     grid-area: cabeca;   
+}
+aside{
+    grid-area: segundo;
+}
+main{
+    grid-area: principal;
+}
+footer{
+    grid-area: rodape;
+}
+body{
+    display: grid;
+    gap:10px;
+    grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "segundo principal principal"
+    "rodape rodape rodape";
+    grid-template-columns: auto auto auto;
+    grid-template-rows:100px auto auto;
+}
+
+@media screen (max-width:1000px) { 
+    body{
+        grid-template-areas:
+        "cabeca"
+        "segundo"
+        "principal"
+        "rodape";
+        grid-template-columns: auto;
+        grid-template-rows:auto auto auto;
+    }
+
+    
+}
