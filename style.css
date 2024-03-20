@@ -1,24 +1,53 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Primeira Loja</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Test</h1>
-    </header>
+body{
+    background-color: white;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "secundario principal principal"
+    "rodape rodape rodape";
+}
+header{
+    grid-area: cabeca;
+}
+aside{
+    grid-area: secundario;
+}
+main{
+    grid-area: principal;
+}
+footer{
+    grid-area: rodape;
+}
 
-    <aside>
-        <h2>Test Menu</h2>
-    </aside>
-    <main>
-        <p>In lacinia sapien id vestibulum scelerisque. Ut vel nibh tellus. Proin laoreet interdum justo ut pellentesque. Proin nec porttitor mi. Cras non nisi rutrum est iaculis interdum. Mauris sed justo ut metus convallis malesuada. Sed enim nisi, pharetra ac hendrerit non, blandit eu sem. Aenean laoreet sem lectus, non rhoncus nulla iaculis quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ac leo neque.</p>
-    </main>
-    <footer>
-        <h3>redes</h3>
-    </footer>
 
-</body>
-</html>
+header{
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    height: 150px;
+}
+aside{
+    background-color: rgb(45, 252, 3);
+    position: relative;
+    height: 600px;
+}
+main{
+    background-color: gray;
+    position: relative;
+    height: auto;
+}
+footer{
+    background-color: blue;
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        grid-template-areas: 
+        "cabeca"
+        "secundario"
+        "principal"
+        "rodape";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }   
+}
