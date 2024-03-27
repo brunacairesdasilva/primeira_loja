@@ -22,22 +22,22 @@ footer{
 
 
 header{
-    background-color: gainsboro;
+    background-color: rgb(211, 35, 187);
     position: relative;
     height: 150px;
 }
 aside{
-    background-color: gray;
+    background-color: rgb(224, 12, 224);
     position: relative;
-    height: 600px;
+   
 }
 main{
-    background-color: rgb(184, 173, 173);
+    background-color: rgb(147, 26, 228);
     position: relative;
     height: auto;
 }
 footer{
-    background-color: rgb(66, 66, 116);
+    background-color: rgb(238, 28, 227);
 }
 
 @media only screen and (max-width: 800px) {
@@ -53,24 +53,43 @@ footer{
 }
 .elementomae{
     justify-content: space-around;
-    border: 2px black solid;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    height: 500px;
+   
 }
 .elemento{
-    border: 5px rgb(60, 60, 77) solid;
-    width: 160px;
-    height: 100px;
+    
+    width: 300px;
+    height: 450px;
     border-radius: 20px 0 10px 0;
-    box-shadow: 2px 2px 6px 2px rgb(87, 74, 87);
-    background-color: rgb(136, 136, 136);
+    box-shadow: 2px 2px 6px 2px rgb(0, 0, 0);
+    background-color: rgb(214, 17, 221);
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .elemento:hover{
-    width: 190px;
-    height: 110px;
     transition:0.5s;
+    background-color: rgba(255, 255, 255, 0.863);
 }
+.iphone15{
+    width: 280px;
+    border-radius: 30px;
+    margin: 5px;
+    
+}
+
+button{
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 120px;
+    height: 120px;
+    color: black;
+}
+
+
 
