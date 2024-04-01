@@ -22,22 +22,24 @@ footer{
 
 
 header{
-    background-color: rgb(211, 35, 187);
+    background-color: rgb(243, 243, 243);
     position: relative;
     height: 150px;
 }
 aside{
-    background-color: rgb(224, 12, 224);
+    background-color: rgb(255, 255, 255);
     position: relative;
    
 }
 main{
-    background-color: rgb(147, 26, 228);
+    background-color: rgb(255, 255, 255);
     position: relative;
     height: auto;
 }
 footer{
-    background-color: rgb(238, 28, 227);
+    background-color: rgb(253, 249, 249);
+    position: relative;
+    height: 190px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -65,8 +67,8 @@ footer{
     width: 300px;
     height: 450px;
     border-radius: 20px 0 10px 0;
-    box-shadow: 2px 2px 6px 2px rgb(0, 0, 0);
-    background-color: rgb(214, 17, 221);
+    box-shadow: 2px 2px 6px 2px rgb(19, 18, 18);
+    background-color: rgb(255, 255, 255);
     margin: 20px;
     align-items: center;
     display: flex;
@@ -74,13 +76,12 @@ footer{
 }
 .elemento:hover{
     transition:0.5s;
-    background-color: rgba(255, 255, 255, 0.863);
+    background-color: rgba(119, 119, 119, 0.863);
 }
 .iphone15{
     width: 280px;
     border-radius: 30px;
     margin: 5px;
-    
 }
 
 button{
@@ -90,6 +91,10 @@ button{
     height: 120px;
     color: black;
 }
+.iphone14{
+        
 
-
-
+}
+.iphone11{
+    
+}
