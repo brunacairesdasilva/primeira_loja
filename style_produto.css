@@ -53,7 +53,13 @@ header nav li a{
     font-size: 20px;
     display: inline;
 }
-
+.elementomae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
 .card{
     width: 310px;
     height:450px ;
@@ -81,4 +87,13 @@ header nav li a{
 }
 main p h1{
     position: absolute;
+}
+div a{
+    background-color: black;
+    color: aliceblue;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
 }
