@@ -1,6 +1,8 @@
+/* mudei a fonte de todo o site*/ 
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* modifiquei o body*/
 body{
     background-color: white;
     display: grid;
@@ -10,6 +12,7 @@ body{
     "secundario principal principal"
     "rodape rodape rodape";
 }
+/*  eu dei o mome das áreas de layout na grade*/
 header{
     grid-area: cabeca;
 }
@@ -35,19 +38,21 @@ header{
 aside{
     background-color: rgba(255, 255, 255, 0.733);
     position: relative;
-   
+/* FIM */
 }
+/* ajustei o tamanho, a cor e posição*/
 main{
     background-color: rgb(255, 255, 255);
     position: relative;
     height: auto;
 }
+/* ajustei o tamanho, a cor e posição*/
 footer{
     background-color: rgb(253, 249, 249);
     position: relative;
     height: 190px;
 }
-
+/* ajustei posição de quando direciona*/
 @media only screen and (max-width: 800px) {
     body{
         grid-template-areas: 
@@ -61,19 +66,18 @@ footer{
 }
 .elementomae{
     justify-content: space-around;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
    
 }
+/* modifiquei a cor da caixa, em que lugar fica e os tamanho das coisas */
 .elemento{
-    
     width: 300px;
     height: 450px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.959);
+    background-color: rgba(245, 242, 244, 0.959);
     margin: 20px;
     align-items: center;
     display: flex;
@@ -81,10 +85,12 @@ footer{
     padding: 10px;
     border: 0.5px rgba(0, 0, 0, 0.164) solid;
 }
+/* modifiquei quanto tempo a transição acontece e a cor*/
 .elemento:hover{
     transition:0.5s;
     background-color: rgb(224, 224, 224);
 }
+/* modifiquei p tamanho do botão e a cor*/
 button{
     border-radius: 10px;
     background-color: aliceblue;
@@ -92,13 +98,14 @@ button{
     height: 50px;
     color: black;
 } 
+/* modifiquei o tamanho da caixa*/
 .caixa img{
     width: 280px;
     height: 743px;
     border-radius: 20px;
     margin: 10px;  
 }
-
+/* mofiquei o tamanho da img*/
 img{
     width: 280px;
     border-radius: 30px;
