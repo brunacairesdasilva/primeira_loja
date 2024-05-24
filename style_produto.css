@@ -82,15 +82,9 @@ header nav li a{
     display: flex;
     padding: 10px;
 }
-/* transição do card*/
-.card:hover{
-    background-color: rgba(69, 71, 94, 0.158);
-    transition: 0.5s;
-    transition-delay: 5ms;
-}
 /* modifiquei o tamanho*/
 .card img{
-    width: 300px;
+    width: 750px;
     height: 450px ;
     border-radius: 20px;
     margin: 10px;
