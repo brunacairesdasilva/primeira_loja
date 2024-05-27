@@ -1,3 +1,3 @@
 function ola() {
-    alert("você será direcionado para a página dos Produtos!")
-}
+    alert("Você será redirecionado para a página de produtos!")
+} 

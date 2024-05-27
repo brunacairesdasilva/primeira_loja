@@ -2,18 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
     <link rel="stylesheet" href="login.css">
 </head>
+<!-- começo do body -->
 <body>
-    <div>
-         <label for="nome">Nome Aluno</label>
-         <input type="text" name="nome_aluno" id="nome" placeholder="seu nome">
-         <label for="email">E-mail</label>
-         <input type="email" name="email_aluno" id="email" placeholder="E-mail Escola">
-         <label for="Telefone">Telefone</label>
-         <input for="text" name="número_aluno" id="numero" placeholder="Seu Telefone">
-         <button><a href="index.html">Entrar</a></button>
+    <main>
+        <!-- div para formulário de cadastro -->
+        <div>
+            <!-- titulo -->
+            <h1>Cadastre-se</h1>
+            <input type="text" id="name" placeholder="Nome" required >
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="text" name="Sexo" id="genero" placeholder="Gênero">
+            <input type="date" name="data" id="data">
+            <input type="number" name="numero" id="numero" placeholder="Seu CPF">
+            <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+            <input type="password" name="password" id="password" placeholder="Senha" required>
+            <button type="submit"><a href="index.html">concluido</a></button>
+        </div> 
+    </main>
+    <!-- footer com a data -->
+    <footer>
+        <h3 class="hellokitty">Não encontrou o que precisava? Fale com a gente!</h3>
+        <p class="hellokitt2"> instagram: luxedom</p>
+        <p class="hellokitty3">Fale conosco: +55 45 999437251</p>
 
+    </footer>        
 </body>
 </html>
