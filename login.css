@@ -1,9 +1,9 @@
-/* retirei toda a borda do site  */
+
 *{
     margin: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/*fiz algumas alterações no body, e fiz o body*/
+/* fiz o body*/
 body{
 
     background-image: linear-gradient(45deg, rgba(40, 0, 58, 0.836), rgb(174, 0, 255));
@@ -17,7 +17,7 @@ body{
     grid-template-rows:1080px auto;
 
 }
-/* modificações no "elemenro mae" do formulário */
+/* modificações formulário */
 div{
     position: absolute;
     left: 50%;
@@ -29,7 +29,7 @@ div{
     border-radius: 30px;
     background-color: rgba(158, 140, 175, 0.158);
 }
-/* formatação do botão */
+/* botão */
 button{
 
     background-color: rgb(43, 0, 83);
@@ -42,7 +42,7 @@ button{
     display: block;
 
 }
-/* link presente no botão */
+/* link botão */
 button a{
     display: block;
     text-decoration: none;
@@ -54,7 +54,7 @@ button:hover{
     background-color: #5a3370;
 
 }
-/* modificação das caixas de entrada de texto presentes */
+/* mcaixas de texto*/
 input{
     display: list-item;
     width: 250px;
