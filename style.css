@@ -7,6 +7,12 @@ header {
     grid-area: header;
     position: relative;
 }
+/* Define o estilo do header com fundo cinza claro, ocupando a área de grid "header" e com posição relativa */
+header {
+    background-color: rgb(238, 238, 238);
+    grid-area: header;
+    position: relative;
+}
 header{
     background-color: rgb(238, 238, 238);
     grid-area: header;
