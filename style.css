@@ -1,7 +1,12 @@
 *{
     font-family: sans-serif;
 }
-
+/* Define estilo do header com fundo cinza claro, área de grid "header" e posição relativa */
+header {
+    background-color: rgb(238, 238, 238);
+    grid-area: header;
+    position: relative;
+}
 header{
     background-color: rgb(238, 238, 238);
     grid-area: header;
