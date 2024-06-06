@@ -93,7 +93,19 @@ body{
     align-items: center;
 
 }
-/* card*/
+/* card,Estilo do elemento com largura de 300px, altura de 500px, bordas arredondadas, alinhamento do conteúdo no centro, direção dos itens em coluna, margem de 10px, justificação do conteúdo na parte superior, exibição em flexbox, preenchimento de 10px, e borda sólida com transparência */
+.caixa {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: 20px;
+    display: flex;
+    padding: 10px;
+    border: 0.1px rgba(0, 0, 0, 0.103) solid;
+}*/
 .caixa{
     width: 300px;
     height:500px ;
