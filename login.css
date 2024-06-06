@@ -41,7 +41,7 @@ button{
     display: block;
 
 }
-/* link botão */
+/* link botão, Define exibição em bloco, remove a decoração de texto, define cor branca para o texto e exibição em bloco */
 button a{
     display: block;
     text-decoration: none;
