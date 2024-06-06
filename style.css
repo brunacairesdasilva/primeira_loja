@@ -46,7 +46,19 @@ footer{
     color: white;
     
 }
-/*responsividade*/
+/*responsividade, Define estilo do corpo da página com fundo branco, margem zero, layout em grid com áreas específicas, espaçamento entre os itens e definição de colunas e linhas automáticas */
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+        "header header header"
+        "secundario principal principal"
+        "footer footer footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px auto auto;
+}*/
 body{
     background-color: rgb(255, 255, 255);
     margin: 0%;
