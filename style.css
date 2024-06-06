@@ -18,6 +18,12 @@ header{
     grid-area: header;
     position: relative;
 }
+/* Define estilo do texto dentro do header com posição absoluta, alinhado à direita a 45%, e cor preta */
+header h1 {
+    right: 45%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
 /* texto do header*/
 header h1{
     right: 45%;
