@@ -53,7 +53,8 @@ button:hover{
     background-color: #5a3370;
 
 }
-/* mcaixas de texto*/
+/* mcaixas de texto,  Define o elemento como item de lista, com 250px de largura, margin e padding, sem borda, bordas arredondadas, fonte média, e cor preta. */
+ 
 input{
     display: list-item;
     width: 250px;
