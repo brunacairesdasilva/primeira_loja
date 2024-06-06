@@ -28,7 +28,7 @@ body{
     border-radius: 30px;
     background-color: rgba(158, 140, 175, 0.158);
 }
-/* botão */
+/* botão,Define um fundo roxo escuro, padding de 15px, bordas arredondadas, sem borda, fonte normal, tamanho de fonte médio e exibição em bloco. */
 button{
 
     background-color: rgb(43, 0, 83);
