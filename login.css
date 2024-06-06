@@ -17,8 +17,7 @@ body{
     grid-template-rows:1080px auto;
 
 }
-/* modificações formulário */
-div{
+/* modificações formulário, Centraliza o elemento na tela com posição absoluta e transform, arredonda bordas, aplica cor preta ao texto, padding e fundo semitransparente. */    
     position: absolute;
     left: 50%;
     top: 50%;
