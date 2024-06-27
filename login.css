@@ -15,9 +15,12 @@ body{
     "footer footer footer";
     grid-template-columns:auto auto auto;
     grid-template-rows:1080px auto;
+    align-items: center
+    
 
 }
-/* modificações formulário, Centraliza o elemento na tela com posição absoluta e transform, arredonda bordas, aplica cor preta ao texto, padding e fundo semitransparente. */    
+/* modificações formulário, Centraliza o elemento na tela com posição absoluta e transform, arredonda bordas, aplica cor preta ao texto, padding e fundo semitransparente. */ 
+.elemento{   
     position: absolute;
     left: 50%;
     top: 50%;
@@ -28,30 +31,13 @@ body{
     border-radius: 30px;
     background-color: rgba(158, 140, 175, 0.158);
 }
-/* botão,Define um fundo roxo escuro, padding de 15px, bordas arredondadas, sem borda, fonte normal, tamanho de fonte médio e exibição em bloco. */
-button{
-
-    background-color: rgb(43, 0, 83);
-    padding: 15px;
-    border-radius: 10px;
-    border: none;
-    font-style: normal;
-    font-size: medium;
-    font-optical-sizing: auto;
-    display: block;
-
-}
-/* link botão, Define exibição em bloco, remove a decoração de texto, define cor branca para o texto e exibição em bloco */
-button a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-/* transição do botão */
-button:hover{
-    background-color: #5a3370;
-
+/* link, Define exibição em bloco, remove a decoração de texto, define cor branca para o texto e exibição em bloco */
+a{
+    color:white;
+    background-color:black;
+    padding:10px;
+    border-radius:10px;
+    margin:5px;
 }
 /* mcaixas de texto,  Define o elemento como item de lista, com 250px de largura, margin e padding, sem borda, bordas arredondadas, fonte média, e cor preta. */
  
@@ -76,10 +62,19 @@ h1{
 main{
     grid-area: principal;
 }
-/* modificação do footer, Define fundo preto, área de grid "footer", altura de 150px e cor do texto branca. */
-footer{
-    background-color: rgb(0, 0, 0);
-    grid-area: footer;
-    height: 150px;;
-    color: white;
+
+.elemento{
+    display:flex;
+    justify-content: space-around
+}
+
+.caixa{
+    width:300px;
+    height:500px;
+    padding:20PX;
+    border-radius:20px;
+    background-color:blueviolet;
+    flex-direction:column;
+    margin:10px;
+    display:flex;
 }
